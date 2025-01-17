@@ -1,0 +1,337 @@
+body{
+    text-align: left;
+    background:black;
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+html{
+    scroll-behavior: smooth;
+    
+}
+
+.button {
+    border: none; 
+    background-color: black; 
+    color: white; 
+    padding: 1.2rem 1.4rem; 
+    cursor: pointer; 
+    border-radius: 1.3rem; 
+    margin-right: 0.3rem;
+    font-weight: bold;
+    font-size:15px;
+    text-decoration: none;
+    height: 1rem;
+  }
+  
+.button:hover {
+    background-color:#ED5E00; 
+    color: black;
+  }
+
+.navlinks{
+    display: flex;
+    justify-content: right;
+}
+header p{
+    text-shadow: 0 0 10px #ed8a00;
+    transition: ease 1s;
+    cursor: pointer;
+    background-color: black;
+    margin-left: 6rem;
+}
+header p:hover{
+    transform: scale(1.1);
+}
+.text{
+    color: white;
+    padding-left:6rem;
+    
+    width:47%;
+    margin-top:4rem;
+    margin-right: 0;
+    padding-bottom: 0;
+}
+
+.imgbut{
+    display: flex; 
+    justify-content: space-between; 
+    font-size: 2.2rem;
+    margin-top: 2.5rem; 
+    margin-right:0;
+    margin-bottom: 0;
+    padding-top: 5rem;
+}
+.Download {
+    background-color:#ED5E00 ; 
+    color: black; 
+    font-size: 1.2rem; 
+    padding: 1rem 2rem; 
+    border-radius: 1rem; 
+    margin-bottom: 2rem; 
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    width:8rem;
+    text-align: center;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+    
+
+}
+.Download:hover {
+    background-color: #ffa600e7;
+}
+.image{
+    margin-left:1rem;
+    margin-top:0;
+    margin-right:2rem;
+    padding-bottom: 10rem;
+    width:40rem;
+    height:40rem;
+    float:right;
+}
+
+p{
+    font-size:20px;
+    margin-right:50px;
+    margin-bottom:30px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+
+    background-color: black;
+    color: #ED5E00;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    padding-right: 2rem;
+
+}
+
+.icon-wrapper{
+    margin-right:20px;
+    display:inline;
+    margin-bottom: 0;
+
+}
+
+a{
+    color: #ED5E00;
+}
+
+
+.ColorChange{
+    color: #ED5E00;
+   
+}
+.randomtext{
+    visibility: hidden;
+}
+
+.section{
+    
+    padding-top:0;
+    margin-top: 0;
+    margin-left:100px;
+    margin-right:5%;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    background-image: url("redpaint.jpg");
+
+}
+
+.about-wrapper h1{
+    font-size: 3rem;
+}
+.about-wrapper h3{
+    font-size: 1.5rem;
+}
+.caption{
+    display:block;
+}
+.caption a{
+    color:red;
+ text-decoration: none;
+ 
+}
+
+
+.access{  
+    height:70%;
+    width:60%;
+    margin-right:0;
+    margin-top: 1rem;
+    border-radius: 5%;
+    margin-left: 2rem;
+    transition: 0.5 s ease;
+}
+
+.access:hover{
+    transform: scale(1.04);
+}
+
+.image-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bean{
+    padding-left: 0rem;
+}
+
+.section1{
+    margin-left:100px;
+    margin-top: 0;
+    margin-right:5%;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+
+}
+
+.project1{
+    display: flex;
+    align-items: center;
+    background-color: #ED5E00;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 20rem;
+}
+.project2{
+    display: flex;
+    align-items: center;
+    background-color: red;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 20rem;
+}
+.project3{
+    display: flex;
+    align-items: center;
+    background-color: cyan;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 20rem;
+}
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    margin-bottom: 4rem;
+    justify-content: center;
+}
+.project1:hover,.project2:hover,.project3:hover{
+    transform: scale(1.1);
+}
+
+.section1 h2{
+    color:red;
+    text-align: center;
+}
+
+.rock{
+    height: 6rem;
+    width: 6rem;
+    border: 2px solid #fff; 
+    border-radius: 50%; 
+    margin-right: 1rem;
+    object-fit: cover;
+}
+.project1 p, .project2,.project3 p {
+    color:white;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin: 0;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+}
+.work{
+    display:flex;
+    margin-right:1px;
+}
+.section1 h1{
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+
+}
+.section2 h1{
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+    margin-top: 8rem;
+}
+.section1 p, .section2 p{
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+}
+.work p{
+    font-size:1rem;
+    width: 10rem;
+    height:6rem;
+    border:solid 1px #ed8a00;
+}
+.section2{
+    margin-left:6rem;
+    margin-right:5%;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10%;
+    align-items: center;
+    height: 100vh;
+}
+
+.contact-links {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+
+.about-wrapper{
+    display:block;
+    margin-bottom: 10rem;
+    text-align: center;
+}
+
+li{
+    font-size: 20px;
+}
+
+.scroll{
+    font-size: small;
+    margin-top: 2%;
+}
+.litem{
+    margin-bottom: 2%;
+}
+p{
+line-height: 1.5;
+padding-right: 0%;
+}
+
+@media (max-width: 768px) {
+    .buttons {
+        flex-direction: column; /* Stack buttons on smaller screens */
+    }
+    .imgbut {
+        flex-direction: column; /* Stack text and image */
+        align-items: center;
+    }
+    .image {
+        width: 100%;
+    }
+}
